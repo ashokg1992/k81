@@ -8,4 +8,5 @@ spec:
       image:  ashokg1992/stress
       imagePullPolicy: Always
       name: stress
+      command: ["sleep", "1800"]
        
