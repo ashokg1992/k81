@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: stress
 spec:
   containers:
     - name: nginx
-      image: nginx
+      image:  ashokg1992/stress
       imagePullPolicy: Always
-      ports:
-      - containerPort: 80
+      name: stress
+       
