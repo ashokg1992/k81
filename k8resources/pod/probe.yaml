@@ -9,6 +9,6 @@ spec:
     livenessProbe:
        tcpSocket:
         path: /
-        port: 80
+        port: 8080
       initialDelaySeconds: 3
       periodSeconds: 5
