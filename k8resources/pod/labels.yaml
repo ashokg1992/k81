@@ -8,7 +8,7 @@ metadata:
    name: docker
    trianer: shiva
   annotations: 
-  org.docker.k8.maintainer: shiva
+   org.docker.k8.maintainer: shiva
 spec:
  containers: 
   - name: nginx
