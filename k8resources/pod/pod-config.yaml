@@ -9,13 +9,12 @@ spec:
     env:
     - name: course
       valueFrom: 
-        configMapKeyref:
+        configMapRef:
           name: course-config  
           key:  course
     - name: duration
       valueFrom:
-        configMapKeyref:
+        configMapRef:
           name: course-config  
           key:  duration
 
-          
