@@ -17,3 +17,5 @@ spec:
         configMapKeyref:
           name: course-config  
           key:  duration
+
+          
